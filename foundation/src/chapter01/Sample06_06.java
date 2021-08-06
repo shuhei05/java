@@ -1,3 +1,6 @@
+package chapter01;
+
+public class Sample06_06 {
 class Main {
   public static void main(String[] args) {
     printData(fullName("Kate", "Jones"), 27, 1.6, 50.0);
@@ -36,4 +39,5 @@ class Main {
   public static boolean isHealthy(double bmi) {
     return bmi >= 18.5 && bmi < 25.0;
   }
+}
 }
